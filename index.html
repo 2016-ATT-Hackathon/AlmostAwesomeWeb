@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    <link rel="stylesheet" type="text/css" href="static/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+        <meta charset="UTF-8"/>
+    </head>
+
+  <body>
+  <div id="main">
+      <div class="container">
+          <div class="container__item landing-page-container">
+              <div class="content__wrapper">
+
+                  <header style="margin-bottom: 20px;" class="header">
+                    <div id="mySidenav" class="sidenav">
+                      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                      <a href="index.html">Home</a>
+                      <a href="views/about.html">About</a>
+                      <a href="views/registration.html">Enroll Device</a>
+                      <a href="views/dashboard.html">Dashboard</a>
+                      
+                    </div>
+                  <span onclick="openNav()"></span>
+
+                    <div class="menu-icon header__item">                      
+                        <span onclick="openNav()" class="menu-icon__line"></span>
+                    </div>
+
+                      <h1 id="terra_cell_header" class="heading header__item">Terra Cell</h1>
+                      <br>
+                      <br>
+                      <h3 id="terra_cell_slogan" class="heading header__item">here is slogan</h3>
+                  </header>
+
+                  <div class="scroller">
+                      <p class="page-title">home</p>
+
+                      <div class="timeline">
+                          <span class="timeline__unit"></span>
+                          <span class="timeline__unit timeline__unit--active"></span>
+                          <span class="timeline__unit"></span>
+                      </div>
+                  </div>
+
+                  <p class="coords">N 49° 16' 35.173"  /  W 0° 42' 11.30"</p>
+                  
+                  <div class="ellipses-container">
+
+                     <h2 class="greeting"></h2>
+                        <div class="ellipses ellipses__outer--thin">
+                          <div class="ellipses ellipses__orbit"></div>
+                        </div>
+                      <div class="ellipses ellipses__outer--thick"></div>
+                  </div>
+
+                  
+              </div>
+          </div>
+      </div>
+  </body>
+  <script src="static/app.js" type="text/javascript"></script>
+</html>
